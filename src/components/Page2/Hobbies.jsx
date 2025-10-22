@@ -42,9 +42,7 @@ const Hobbies = () => {
             </BoxPad>
           </LeftC>
           <LeftC>
-            <BoxPad2>
-              
-            </BoxPad2>
+            <BoxPad2></BoxPad2>
             <Box2>
               <h1>Box</h1> <hr />
               <p>Hi i was just trying to write something. </p>
@@ -53,7 +51,14 @@ const Hobbies = () => {
         </Left>
         <Right>
           <h1>Prayaas</h1> <hr />
-          <p>Hi i was just trying to write something. </p>
+          <p>
+            In contrast to the technological changes, the social changes are
+            reflected very slowly. Prayaas strives to bring awareness about
+            sanitary hygiene,education, self-defence to the nearby residents of
+            IIITA by conducting regular campaigns, and organising events. It
+            supports financially weaker students and Provides free classes to
+            students upto class 12th.{" "}
+          </p>
         </Right>
       </Container>
     </>
