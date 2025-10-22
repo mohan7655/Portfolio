@@ -1,6 +1,6 @@
 import React from "react";
 import { Bg1, Bg2, Left, Right } from "./Page1";
-import mohan from "/home/kaybe/Documents/WEB DEV/PORTFOLIO/my-app/src/assets/mohan.jpg";
+import mohan from "../../assets/mohan.jpg";
 import { Circle, Cubes } from "../../shapes";
 
 const Page1 = () => {
