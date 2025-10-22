@@ -1,0 +1,62 @@
+import React from "react";
+import {
+  Box,
+  Box2,
+  BoxPad,
+  BoxPad2,
+  Container,
+  Header,
+  Left,
+  LeftC,
+  Right,
+} from "./Hobbies";
+
+const Hobbies = () => {
+  return (
+    <>
+      <Header id="page2">
+        <h1>Things i Do</h1> <hr />
+      </Header>
+      <Container>
+        <Left>
+          <LeftC>
+            <Box>
+              <h1>Box</h1> <hr />
+              <p>
+                Hi i was just trying to write something. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Delectus distinctio fuga
+                eius, culpa totam soluta tenetur quaerat consequuntur et enim
+                velit ea ab odio quae magnam. Ut voluptate repudiandae alias!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                libero ipsa tempora odit velit eius eos accusamus commodi rem
+                adipisci veniam, itaque iusto sapiente optio, iste molestias
+                ratione mollitia quae. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Atque odit esse consectetur, quaerat pariatur
+                adipisci aliquid nam iste ullam accusantium qui doloribus, ab
+                nesciunt neque porro commodi possimus? Repudiandae, a?
+              </p>
+            </Box>
+            <BoxPad>
+              <h1>Boxpad</h1> <hr />
+              <p>Hi i was just trying to write something. </p>
+            </BoxPad>
+          </LeftC>
+          <LeftC>
+            <BoxPad2>
+              
+            </BoxPad2>
+            <Box2>
+              <h1>Box</h1> <hr />
+              <p>Hi i was just trying to write something. </p>
+            </Box2>
+          </LeftC>
+        </Left>
+        <Right>
+          <h1>Prayaas</h1> <hr />
+          <p>Hi i was just trying to write something. </p>
+        </Right>
+      </Container>
+    </>
+  );
+};
+export default Hobbies;
