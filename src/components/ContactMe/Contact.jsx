@@ -41,7 +41,7 @@ const Contact = () => {
           </Button>
         </LeftContainer>
         <RightContainer>
-          <FormContainer>
+          <FormContainer action="https://formspree.io/f/xqayrwkk" method="POST">
             <FormGroup>
               <label htmlFor="">Name</label>
               <input type="text" name="name" placeholder="Name" />
