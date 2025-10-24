@@ -12,7 +12,7 @@ export const Container = styled.div`
 
 export const Box = styled.div`
   min-height: 40vh;
-  border-bottom: solid black 2px;
+  border-bottom: solid black 1px;
   &:hover {
     border-bottom: solid tomato 2px;
     li {

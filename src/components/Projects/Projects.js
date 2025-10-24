@@ -43,6 +43,7 @@ export const Box = styled.div`
   margin: 4%;
   min-width: 90%;
   min-height: 12rem;
+  border-radius: 6px;
   /* border: solid 1px black; */
   box-shadow: 0 5px 10px 5px rgba(238, 238, 238, 1);
   &:hover {

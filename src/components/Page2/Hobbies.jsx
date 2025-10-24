@@ -21,7 +21,7 @@ const Hobbies = () => {
         <Left>
           <LeftC>
             <Box>
-              <h1>Box</h1> <hr />
+              <h1>Travelling</h1> <hr />
               <p>
                 Hi i was just trying to write something. Lorem ipsum dolor sit
                 amet, consectetur adipisicing elit. Delectus distinctio fuga
@@ -37,14 +37,14 @@ const Hobbies = () => {
               </p>
             </Box>
             <BoxPad>
-              <h1>Boxpad</h1> <hr />
+              <h1>Running</h1> <hr />
               <p>Hi i was just trying to write something. </p>
             </BoxPad>
           </LeftC>
           <LeftC>
             <BoxPad2></BoxPad2>
             <Box2>
-              <h1>Box</h1> <hr />
+              <h1>Writing</h1> <hr />
               <p>Hi i was just trying to write something. </p>
             </Box2>
           </LeftC>

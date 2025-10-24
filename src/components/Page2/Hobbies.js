@@ -40,6 +40,8 @@ export const LeftC = styled.div`
 `;
 
 export const Box = styled.div`
+  box-sizing: border-box;
+  padding: 10px;
   flex-grow: 1;
   background-color: #4484e4;
   max-height: 43%;
@@ -53,6 +55,7 @@ export const BoxPad = styled.div`
   margin-right: 10%;
   background-color: #4484e4;
   max-height: 50%;
+  padding: 10px;
 `;
 
 export const BoxPad2 = styled(BoxPad)`
