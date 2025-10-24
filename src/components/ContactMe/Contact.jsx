@@ -12,14 +12,10 @@ import {
 } from "./Contact";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Form from "./Form";
 
 const Contact = () => {
-  const handleClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1_Ugy6RzR0Yzf7ITbv_ObQLF9dzdaF07A/view?usp=drive_link",
-      "_blank"
-    );
-  };
+  
   return (
     <>
       <Header id="contact"> Contact Me</Header>
@@ -41,21 +37,7 @@ const Contact = () => {
           </Button>
         </LeftContainer>
         <RightContainer>
-          <FormContainer action="https://formspree.io/f/xqayrwkk" method="POST">
-            <FormGroup>
-              <label htmlFor="">Name</label>
-              <input type="text" name="name" placeholder="Name" />
-            </FormGroup>
-            <FormGroup>
-              <label htmlFor="">Email</label>
-              <input type="email" name="email" placeholder="Email" />
-            </FormGroup>
-            <FormGroup>
-              <label htmlFor="">Message</label>
-              <textarea type="text" name="content" placeholder="Write here.." />
-            </FormGroup>
-            <button type="submit">Submit</button>
-          </FormContainer>
+          <Form />
         </RightContainer>
       </Container>
     </>
